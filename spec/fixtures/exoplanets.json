@@ -1,0 +1,93 @@
+[
+  {
+    "PlanetIdentifier": "<p>Single Small",
+    "TypeFlag": 0,
+    "RadiusJpt": 0.054,
+    "DiscoveryYear": 2001,
+    "HostStarTempK": 3588
+  },
+  {
+    "PlanetIdentifier": "<p>Single Medium",
+    "TypeFlag": 0,
+    "RadiusJpt": 1.054,
+    "DiscoveryYear": 1902,
+    "HostStarTempK": 3581
+  },
+  {
+    "PlanetIdentifier": "<p>Single Large",
+    "TypeFlag": 0,
+    "RadiusJpt": 2.054,
+    "DiscoveryYear": 1958,
+    "HostStarTempK": 3582
+  },
+  {
+    "PlanetIdentifier": "<p>PType Small",
+    "TypeFlag": 1,
+    "RadiusJpt": 0.054,
+    "DiscoveryYear": 1958,
+    "HostStarTempK": 3583
+  },
+  {
+    "PlanetIdentifier": "<p>PType Medium",
+    "TypeFlag": 1,
+    "RadiusJpt": 1.054,
+    "DiscoveryYear": 1902,
+    "HostStarTempK": 3584
+  },
+  {
+    "PlanetIdentifier": "<p>PType Large",
+    "TypeFlag": 1,
+    "RadiusJpt": 2.054,
+    "DiscoveryYear": 2001,
+    "HostStarTempK": 3585
+  },
+  {
+    "PlanetIdentifier": "<p>SType Small",
+    "TypeFlag": 2,
+    "RadiusJpt": 0.054,
+    "DiscoveryYear": 1928,
+    "HostStarTempK": 3586
+  },
+  {
+    "PlanetIdentifier": "<p>SType Medium",
+    "TypeFlag": 2,
+    "RadiusJpt": 1.054,
+    "DiscoveryYear": 1975,
+    "HostStarTempK": 3587
+  },
+  {
+    "PlanetIdentifier": "<p>SType Large",
+    "TypeFlag": 2,
+    "RadiusJpt": 2.054,
+    "DiscoveryYear": 1936,
+    "HostStarTempK": 13584
+  },
+  {
+    "PlanetIdentifier": "<p>Orphan Small",
+    "TypeFlag": 3,
+    "RadiusJpt": 0.054,
+    "DiscoveryYear": 1936,
+    "HostStarTempK": 3589
+  },
+  {
+    "PlanetIdentifier": "<p>Orphan Medium",
+    "TypeFlag": 3,
+    "RadiusJpt": 1.054,
+    "DiscoveryYear": 1927,
+    "HostStarTempK": 3590
+  },
+  {
+    "PlanetIdentifier": "<p>Orphan Large",
+    "TypeFlag": 3,
+    "RadiusJpt": 2.054,
+    "DiscoveryYear": 1968,
+    "HostStarTempK": 3591
+  },
+  {
+    "PlanetIdentifier": "<p>Missing",
+    "TypeFlag": 0,
+    "RadiusJpt": "",
+    "DiscoveryYear": "",
+    "HostStarTempK": ""
+  }
+]

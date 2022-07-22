@@ -1,0 +1,42 @@
+<p>
+  <%= I18n.t('total_orphaned', orphaned_planets: ExoplanetsDb.instance.exoplanets.count(&:orphaned?)).html_safe %>
+</p>
+<table class="hottest-star">
+  <tbody>
+  <tr>
+    <td><%= I18n.t 'hottest' %></td>
+    <td>
+      <% HottestStars.new.hottest.each.with_index do |exoplanet, index| %>
+        <% if index.positive? %>
+          <%= I18n.t('hottest_join').html_safe %>
+        <% end %>
+        <%= exoplanet.PlanetIdentifier %>
+      <% end %>
+    </td>
+  </tr>
+  </tbody>
+</table>
+<h4><%= I18n.t 'discoveries_by_year.title' %></h4>
+<table class="planetary-discoveries">
+  <thead>
+  <tr>
+    <th><%= I18n.t 'discoveries_by_year.year' %></th>
+    <th><%= I18n.t 'discoveries_by_year.small' %></th>
+    <th><%= I18n.t 'discoveries_by_year.medium' %></th>
+    <th><%= I18n.t 'discoveries_by_year.large' %></th>
+  </tr>
+  </thead>
+  <tbody>
+  <% DiscoveriesByYear.instance.annual_discoveries.each do |discovieries| %>
+    <tr>
+      <td><%= discovieries.year %></td>
+      <td><%= discovieries.small_planets %></td>
+      <td><%= discovieries.medium_planets %></td>
+      <td><%= discovieries.large_planets %></td>
+    </tr>
+  <% end %>
+  </tbody>
+</table>
+<p>
+  <%= link_to I18n.t('reload_planets'), reload_exoplanets_path %>
+</p>
